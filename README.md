@@ -1,1 +1,5 @@
-# mixed-time-calculations
+This Python project facilitates concurrent execution of area calculations for geometric shapes, specifically Trapezoids, Rectangles, and Squares. The implementation utilizes multithreading and concurrent processing to efficiently compute areas for a large number of randomly generated shapes.
+
+The Classes.py file contains class definitions for geometric shapes - Trapezoid, Rectangle, and Square. Each class includes an area_calculator method for calculating the respective shape's area. Additionally, some operators, such as __add__, __sub__, and __mod__, are overridden for Trapezoids to support area-related operations.
+
+In mixed_calculations.py, functions (trapezoid_area, rectangle_area, square_area) are implemented to calculate areas for each shape. The file also provides functions for sequential and concurrent execution of these calculations (calculate_areas_sequential, threaded_execution, concurrent_futures).Generated random sets of parameters for Trapezoids, Rectangles, and Squares get their areas calculated using sequential, multithreaded, and concurrent methods, providing a comparison of execution times.
